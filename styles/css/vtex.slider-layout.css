@@ -1,0 +1,41 @@
+.paginationDotsContainer{
+    background-color: #212121;
+}
+
+.slideChildrenContainer{
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideChildrenContainer :hover{
+    background-color: #212121;
+    
+}
+.sliderTrack{
+    background-color: #212121;
+}
+
+.sliderArrows--carousel{
+    margin-top: 19rem;
+    margin-left: 25rem;
+    margin-right:25rem;
+
+}
+
+.sliderTrack--carousel{
+    height: 60vh;
+}
+.paginationDotsContainer--carousel{
+    background-color: none;
+    margin-bottom: 1rem;
+}
+
+.slideChildrenContainer--carousel{
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

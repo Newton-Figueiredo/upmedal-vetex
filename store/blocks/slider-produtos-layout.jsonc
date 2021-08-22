@@ -1,0 +1,87 @@
+
+
+{
+    "slider-layout#produtos": {
+      "children": [
+        "image#dsk1","image#dsk2"
+        
+
+      ],
+      "props": {
+        "autoplay": {
+          "timeout": 7000,
+          "stopOnHover": true
+        },
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "blockClass": "carousel",
+          "fullWidth": true,
+          "arrowSize": 20,
+          "centerMode": "center"
+      }
+    },
+
+
+    "responsive-layout.desktop": {
+        "children": ["image#dsk1","image#dsk2"]
+    },
+    "responsive-layout.tablet": {
+        "children": ["image#tab1","image#tab2"]
+    },
+    "responsive-layout.phone": {
+        "children": ["image#cel1","image#cel1"]
+    },
+
+
+    "image#dsk1": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T211053Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bde8b1e2348511340b5ca91210327657a6cf07b09b4c5cde415c5d64076502a7",
+            "maxHeight": 200,
+        "maxWidth": 800    
+        }
+    },
+    "image#dsk2": {
+        "props": {
+        "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T210910Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ca2d8577e388623354460f530ed1e435050795b866008d9b38e7f963e1186083",
+        "maxHeight": 200,
+        "maxWidth": 800
+    }
+    },
+    "image#tab1": {
+        "props": {
+        "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T211053Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bde8b1e2348511340b5ca91210327657a6cf07b09b4c5cde415c5d64076502a7",
+        "maxHeight": 100,
+        "maxWidth": 200    
+        }
+    },
+    "image#tab2": {
+        "props": {
+        "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T210910Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ca2d8577e388623354460f530ed1e435050795b866008d9b38e7f963e1186083",
+        "maxHeight": 100,
+        "maxWidth": 200
+    }
+    },
+    "image#cel1": {
+        "props": {
+        "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T211053Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bde8b1e2348511340b5ca91210327657a6cf07b09b4c5cde415c5d64076502a7",
+        "maxHeight": 100,
+        "maxWidth": 200    
+        }
+    },
+    "image#cel2": {
+        "props": {
+        "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T210910Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ca2d8577e388623354460f530ed1e435050795b866008d9b38e7f963e1186083",
+        "maxHeight": 100,
+        "maxWidth": 200
+    }
+    }
+
+
+
+}
+   
+

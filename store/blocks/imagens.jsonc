@@ -1,0 +1,56 @@
+{
+
+"image#1": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1625576915-POS%20ROLLER%20CORREO.png",
+      "maxHeight": 200,
+      "maxWidth": 200    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1629377501-post-libra.png",
+      "maxHeight": 200,
+      "maxWidth": 200    }
+  },
+  "image#3": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1629219624-POST.png",
+      "maxHeight": 200,
+      "maxWidth": 200    }
+  },
+  "image#4": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1628715231-POST.png",
+      "maxHeight": 200,
+      "maxWidth": 200    }
+  },
+  "image#5": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1627262593-POST.png",
+      "maxHeight": 200,
+      "maxWidth": 200    }
+  },
+  "image#6": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1627332809-POSTS%20E%20DERIVADOS.png",
+      "maxHeight": 200,
+      "maxWidth": 200    }
+  },
+  "image#7": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1625781920-POST.png",
+      "maxHeight": 200,
+      "maxWidth": 200    }
+  },
+  "image#8": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1627509599-POST%20TROFEU.png",
+      "maxHeight": 200,
+      "maxWidth": 200
+    }
+  }
+
+
+
+
+}

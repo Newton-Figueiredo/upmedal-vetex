@@ -1,0 +1,13 @@
+.flexCol {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCol--colteste {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+.menuIcon{
+    color: white;
+   
+}
+.openIconContainer{
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
